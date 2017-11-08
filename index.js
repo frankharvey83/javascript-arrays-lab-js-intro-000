@@ -30,7 +30,8 @@ function prependKitten(name)  {
 }
 
 function removeFirstKitten(name)  {
-  var newKittens = kittens.slice(1)
+  var newKittens = (...kittens)
+  kittens.upshift("Arnold")
   return newKittens;
 }
 
