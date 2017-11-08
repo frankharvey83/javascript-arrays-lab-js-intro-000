@@ -25,8 +25,7 @@ function appendKitten(name) {
 }
 
 function prependKitten(name)  {
-
-  return newKittens;
+  kittens.prepend("Arnold");
 }
 
 function removeFirstKitten(name)  {
