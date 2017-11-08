@@ -20,14 +20,14 @@ function destructivelyRemoveFirstKitten(name) {
 }
 
 function appendKitten(name) {
-
+  
+  
   return newKittens;
 }
 
 function prependKitten(name)  {
   var newKittens = [...kittens]
   kittens.unshift("Arnold");
-  return kittens
 }
 
 function removeFirstKitten(name)  {
