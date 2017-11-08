@@ -25,7 +25,8 @@ function appendKitten(name) {
 }
 
 function prependKitten(name)  {
-  kittens.prepend("Arnold");
+  var newKittens = kittens.unshift("Arnold");
+  return newKittens
 }
 
 function removeFirstKitten(name)  {
